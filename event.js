@@ -1,12 +1,12 @@
-var myVar = document.querySelector("#paraId");
-function myMessage1(){
+var myVar = document.querySelector("#myImageId");
+function myPicture1(){
     
-    myVar.innerHTML = "You have clicked on button1";
+    myVar.src = "img/Calendar1.jpg";
 
 }
 
-function myMessage2(){
+function myPicture2(){
     
-    myVar.innerHTML = "You have clicked on button2";
+    myVar.src = "img/Calendar2.jpg";
 }
 
