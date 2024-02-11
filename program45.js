@@ -24,6 +24,14 @@ function audioPlay(text){
     }
 }
 
+
+document.addEventListener("keypress", function(event){
+    var text = event.key;
+    audioPlay(text);
+    playAnimation(text);
+});
+
+
 function playAnimation(text) {
     var selectedButton = document.querySelector("."+text);
     if(selectedButton){
